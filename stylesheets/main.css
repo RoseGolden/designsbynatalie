@@ -149,10 +149,9 @@ margin-top: 100px;
 text-align: center;
 }
 
-footer {
+#footer {
 position: -webkit-sticky;
 position: sticky;
-
 height: 65px;
 
 background: #CDBDCB;
