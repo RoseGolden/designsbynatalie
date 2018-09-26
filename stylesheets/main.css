@@ -112,8 +112,8 @@ body{
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
-  display:
 }
+
 ul{
   list-style: none;
 }
@@ -164,6 +164,7 @@ position: sticky;
 height: 65px;
 width:100%;
 background: #CDBDCB;
+vertical-align: middle;
 }
 
 
