@@ -123,6 +123,9 @@ ul{
 .landingL, h3{
   margin-bottom: 30px;
 }
+.landingR{
+  margin-right: 160px;
+}
 .text, p{
   margin-bottom: 20px;
 }
@@ -136,6 +139,7 @@ ul{
 
 .casestudys{
   margin-bottom: 100px;
+  align-content: center;
 }
 
 .casestudys, ul{
@@ -164,7 +168,10 @@ background: #CDBDCB;
 
 
 
-.socialMedia{
-  margin:;
+#socialTags, a{
+  display: inline-flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  align-content: center;
 
 }
