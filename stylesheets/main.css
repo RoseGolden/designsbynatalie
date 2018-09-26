@@ -147,15 +147,27 @@ ul{
 }
 
 
-/*------ Contact Me -------*/
+/*------ Contact Me * Footer -------*/
 .contact {
 position: absolute;
 width: 100%;
 height: 280px;
 top: 1583px;
 background: #E3D2E1;
-margin-top: 100px;
+
 text-align: center;
+}
+
+.contact, h2{
+  margin-top: 60px;
+}
+
+
+#socialTags, a{
+  display: inline-flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  align-content: center;
 }
 
 #footer {
@@ -164,15 +176,8 @@ position: sticky;
 height: 65px;
 width:100%;
 background: #CDBDCB;
-vertical-align: middle;
 }
 
-
-
-#socialTags, a{
-  display: inline-flex;
-  justify-content: space-between;
-  padding-left: 30px;
-  align-content: center;
-
+#footer p{
+  margin-left: 40px;
 }
