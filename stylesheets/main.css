@@ -67,9 +67,8 @@ font-size: 18px;
 
 }
 body{
-  width: 80%;
+  width: 100%;
   align-items: center;
-  margin: auto;
   background-image:url(../images/BGlandingpage.png);
   background-position: top;
   background-size: cover;
@@ -84,6 +83,7 @@ body{
 }
 .logo, .links {
   flex: 1;
+  margin-right: 0px;
 }
 
 .links a {
@@ -93,12 +93,16 @@ body{
   text-decoration: none;
   color: 000000;
   margin-left: 40px;
+  margin-right: 0px;
 }
 .logo{
   margin-right: 10px;
 }
 
 /*------ LANDING -------*/
+#main{
+  margin-left: 80px;
+}
 .landing{
   height: 600px;
   position: relative;
@@ -143,8 +147,8 @@ ul{
 .contact {
 position: absolute;
 width: 100%;
-height: 342px;
-top: 1504px;
+height: 280px;
+top: 1583px;
 background: #E3D2E1;
 margin-top: 100px;
 text-align: center;
@@ -154,7 +158,7 @@ text-align: center;
 position: -webkit-sticky;
 position: sticky;
 height: 65px;
-
+width:100%;
 background: #CDBDCB;
 }
 
