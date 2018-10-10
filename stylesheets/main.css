@@ -138,17 +138,25 @@ ul{
 }
 
 .casestudys{
+  margin: 0px 80px 0 80px;
   margin-bottom: 100px;
-  align-content: center;
+
 }
 
 .casestudys, ul{
   display: flex;
 }
 #blocBox{
+  margin: 0px 80px 0 80px;
 }
 
+#fanFare{
+  margin: 0px 80px 0 80px;
+}
 
+#goodLuxe{
+  margin: 0px 80px 0 80px;
+}
 /*------ Contact Me * Footer -------*/
 .contact {
 position: absolute;
