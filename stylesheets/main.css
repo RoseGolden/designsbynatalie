@@ -82,6 +82,7 @@ body{
   align-items: center;
   vertical-align: middle;
   height: 100px;
+  color: 000000;
 }
 .logo, .links {
   flex: 1;
