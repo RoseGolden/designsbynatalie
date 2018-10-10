@@ -145,17 +145,30 @@ ul{
 
 .casestudys, ul{
   display: flex;
+
 }
 #blocBox{
-  margin: 0px 80px 0 80px;
+  margin: 0px 0px 0px 80px;
 }
 
 #fanFare{
-  margin: 0px 80px 0 80px;
+  margin: 0px 80px 0px 80px;
 }
 
 #goodLuxe{
-  margin: 0px 80px 0 80px;
+  margin: 0px 0px 0px 0px;
+}
+
+.title{
+
+}
+.casestudys p{
+  text-align: left;
+  text-shadow: 4px, 0px, 4px;
+  color: #ffffff;
+
+
+
 }
 /*------ Contact Me * Footer -------*/
 .contact {
