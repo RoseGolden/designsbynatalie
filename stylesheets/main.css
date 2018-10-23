@@ -148,20 +148,17 @@ ul{
 
 }
 #blocBox{
-  margin: 0px 0px 0px 80px;
+  margin: 0px 0px 0px 0px;
 }
 
 #fanFare{
-  margin: 0px 80px 0px 80px;
+  margin: 0px 120px 0px 120px;
 }
 
 #goodLuxe{
   margin: 0px 0px 0px 0px;
 }
 
-.title{
-
-}
 .casestudys p{
   text-align: left;
   text-shadow: 4px, 0px, 4px;
