@@ -1,5 +1,6 @@
 /*------ GLOBAL -------*/
 * {
+  z-index: 1;
   padding: 0;
   border: 0;
   outline: 0;
@@ -87,7 +88,9 @@ body{
 .logo, .links {
   flex: 1;
 }
-
+.logo > a {
+  padding: 0;
+}
 .links a {
   padding-left: 40px;
   float: right;
@@ -96,7 +99,8 @@ body{
   text-decoration: none;
   color: 000000;
 }
-.logo{
+.bio > p > a {
+  padding: 0;
 }
 
 /*------ LANDING -------*/
@@ -138,14 +142,13 @@ ul{
 }
 
 .casestudys{
-  margin: 0px 80px 0 80px;
   margin-bottom: 100px;
 
 }
 
 .casestudys, ul{
   display: flex;
-
+  justify-content: space-around;
 }
 #blocBox{
   margin: 0px 0px 0px 0px;
@@ -159,6 +162,23 @@ ul{
   margin: 0px 0px 0px 0px;
 }
 
+.casestudys > ul {
+  display: flex;
+  flex-direction: row;
+}
+.casestudys > ul > li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.casestudys > ul > li > p {
+  position: absolute;
+}
+.caseImg {
+  position: absolute;
+  z-index: 0;
+}
+
 .casestudys p{
   text-align: left;
   text-shadow: 4px, 0px, 4px;
@@ -169,7 +189,6 @@ ul{
 }
 /*------ Contact Me * Footer -------*/
 .contact {
-position: absolute;
 width: 100%;
 height: 280px;
 top: 1829px;
@@ -197,6 +216,9 @@ width:100%;
 background: #CDBDCB;
 }
 
-#footer p{
+#footer > p{
+  background: #E3D2E1;
+  margin: 0px;
+  text-align: center;
   margin-left: 40px;
 }
