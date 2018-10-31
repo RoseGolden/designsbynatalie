@@ -107,11 +107,13 @@ body{
 #main{
   align-items: center;
 }
+
 .landing{
   height: 600px;
   position: relative;
   justify-content: space-between;
 }
+
 .landingWrapper{
   display: flex;
   justify-content: space-between;
