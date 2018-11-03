@@ -1,0 +1,136 @@
+/*------ GLOBAL -------*/
+* {
+  z-index: 1;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+}
+
+.clearfix::after{
+  content:"";
+  clear: both;
+  display: table;
+}
+html, body{
+  height: 100%;
+  font-weight: 100;
+}
+.container{
+  min-height: 100%;
+  max-width: 1440px;
+  width: 95vw;
+  margin: auto;
+}
+#main{
+  overflow: auto;
+  padding-bottom: 280px;
+
+}
+#footer{
+  position: relative;
+  height: 65px;
+  clear: both;
+}
+h1{
+  font-family: 'Cormorant Garamond', serif;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 64px;
+}
+h2{
+  font-family: 'Cormorant Garamond', serif;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 48px;
+}
+h3{
+font-family:'Muli', sans-serif;
+font-style: normal;
+font-weight: lighter;
+line-height: normal;
+font-size: 36px;
+}
+h4{
+  font-family: 'Cormorant Garamond', serif;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 24px;
+}
+p{
+font-family:'Muli', sans-serif;
+font-style: normal;
+font-weight: normal;
+line-height: 140%;
+font-size: 18px;
+
+}
+body{
+  width: 100%;
+  align-items: center;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*------ NAV -------*/
+.nav{
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  height: 100px;
+  color: 000000;
+}
+.logo, .links {
+  flex: 1;
+}
+.logo > a {
+  padding: 0;
+}
+.links a {
+  padding-left: 40px;
+  float: right;
+  display: inline-block;
+  vertical-align: middle;
+  text-decoration: none;
+  color: #000000;
+}
+
+/*------ Contact Me * Footer -------*/
+.contact {
+width: 100%;
+height: 280px;
+top: 1829px;
+background: #E3D2E1;
+text-align: center;
+}
+
+.contact, h2{
+margin-top: 10px;
+}
+
+
+#socialTags, a{
+  display: inline-flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  align-content: center;
+}
+
+#footer {
+position: -webkit-sticky;
+position: sticky;
+height: 65px;
+width:100%;
+background: #CDBDCB;
+}
+
+#footer > p{
+  background: #CDBDCB;
+  margin: 0px;
+  text-align: center;
+  margin-left: 40px;
+}
