@@ -147,15 +147,19 @@ ul{
   color:#ffffff;
 }
 
-.casestudys{
-  margin: 0px 50px 0px 50px;
-  padding: 0 50px 0 50px;
-}
-
-.casestudys ul{
+.casestudys > ul {
   display: flex;
   justify-content: space-around;
+  flex-direction: row;
 }
+
+.casestudys > ul > li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
 #blocBox{
   margin: 0px 0px 0px 0px;
 }
@@ -168,16 +172,7 @@ ul{
   margin: 0px 0px 0px 0px;
 }
 
-.casestudys > ul {
-  display: flex;
-  flex-direction: row;
-  padding-left: 0.5em;
-}
-.casestudys > ul > li {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+
 .casestudys > ul > li > p {
   position: absolute;
 }
@@ -221,17 +216,20 @@ margin-top: 10px;
   align-content: center;
 }
 
+
 #footer {
 position: -webkit-sticky;
 position: sticky;
 height: 65px;
 width:100%;
 background: #CDBDCB;
+
 }
 
 #footer > p{
   background: #CDBDCB;
   margin: 0px;
-  text-align: center;
-  margin-left: 40px;
+  text-align: left;
+  height: 65px;
+  font-size: 14px;
 }

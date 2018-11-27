@@ -24,7 +24,6 @@ html, body{
 }
 #main{
   overflow: auto;
-  padding-bottom: 280px;
 
 }
 #footer{
@@ -123,7 +122,7 @@ body{
 }
 
 .form{
-  position: absolute;
+  padding-right: 400px;
   align-items: center;
   left: 30%;
   display: block;
@@ -160,10 +159,11 @@ textarea{
 }
 
 #socialTags, a{
+
   display: inline-flex;
   justify-content: space-between;
-  padding-left: 30px;
-  align-content: center;
+  margin-left: 30px;
+
 }
 
 
@@ -179,8 +179,7 @@ background: #CDBDCB;
 }
 
 #footer > p{
-  background: #CDBDCB;
-  margin: 0px;
-  text-align: center;
-  margin-left: 40px;
+ text-align: center;
+ margin: -1rem;
+ font-size: 14px;
 }

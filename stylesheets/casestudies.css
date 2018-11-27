@@ -119,22 +119,28 @@ body{
 /*------ Case Studies -------*/
 
 .goodcaseS > p{
-  width: 533px;
+  width: 550px;
 }
 
 .goodcaseS{
   display: flex;
   justify-content: space-between;
+
 }
 
 .goodcaseS > goodImg{
   float: right;
+  margin-left: 20px;
 }
 
 
 
 .fancaseS > p{
   width: 533px;
+}
+
+.fanImg{
+  padding-right: 150px;
 }
 
 .fancaseS{
@@ -190,4 +196,5 @@ background: #CDBDCB;
   margin: 0px;
   text-align: center;
   margin-left: 40px;
+  font-size: 14px;
 }
