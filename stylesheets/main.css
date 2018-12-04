@@ -22,8 +22,9 @@ html, body{
   width: 95vw;
   margin: auto;
 }
+
 #main{
-  overflow: auto;
+  overflow: hidden;
   padding-bottom: 280px;
 
 }
@@ -112,6 +113,8 @@ body{
   height: 600px;
   position: relative;
   justify-content: space-between;
+  align-self: stretch;
+
 }
 
 .landingWrapper{
@@ -145,12 +148,15 @@ ul{
 
 .casestudys h4{
   color:#ffffff;
+  padding-top: 100px;
 }
+
 
 .casestudys > ul {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
+  padding: 10px;
 }
 
 .casestudys > ul > li {
@@ -161,17 +167,18 @@ ul{
 
 
 #blocBox{
-  margin: 0px 0px 0px 0px;
+  align-items: flex-start;
 }
 
 #fanFare{
-  margin: 0px 120px 0px 120px;
+  align-items: flex-start;
+  text-align: left;
 }
 
 #goodLuxe{
-  margin: 0px 0px 0px 0px;
+  align-items: flex-start;
+  text-align: left;
 }
-
 
 .casestudys > ul > li > p {
   position: absolute;
@@ -181,17 +188,18 @@ ul{
   z-index: 0;
 }
 
-.caseText{
-  width:328px;
-  margin-top: 100px;
-
+.caseText, h4{
+  padding-top: 20px;
+  width: 328px;
+  color: #ffffff;
+  padding-left: 30px;
 }
 
-.casestudys p{
-  text-align: left;
-  text-shadow: 4px, 0px, 4px;
-  color: #ffffff;
+.caseText p{
+  font-size: 16px;
+}
 
+.casestudys, a{
 
 
 }

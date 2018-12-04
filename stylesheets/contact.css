@@ -158,12 +158,17 @@ textarea{
 
 }
 
+
 #socialTags, a{
 
   display: inline-flex;
   justify-content: space-between;
-  margin-left: 30px;
+  margin-left: 2rem;
 
+}
+
+#socialTags{
+  margin: 0 0 39px 475px;
 }
 
 
@@ -179,7 +184,7 @@ background: #CDBDCB;
 }
 
 #footer > p{
- text-align: center;
- margin: -1rem;
+ text-align: left;
+ margin-top: -20px;
  font-size: 14px;
 }
