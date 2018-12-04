@@ -25,7 +25,7 @@ html, body{
 
 #main{
   overflow: hidden;
-  padding-bottom: 280px;
+  padding-bottom: 180px;
 
 }
 #footer{
@@ -199,10 +199,11 @@ ul{
   font-size: 16px;
 }
 
-.casestudys, a{
-
-
+.learnMore{
+  padding-left: 70px;
+  margin-top: 150px;
 }
+
 /*------ Contact Me * Footer -------*/
 .contact {
 width: 100%;
@@ -240,4 +241,5 @@ background: #CDBDCB;
   text-align: left;
   height: 65px;
   font-size: 14px;
+
 }
