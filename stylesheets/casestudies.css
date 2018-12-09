@@ -23,8 +23,7 @@ html, body{
   margin: auto;
 }
 #main{
-  overflow: auto;
-  padding-bottom: 280px;
+
 
 }
 #footer{
@@ -128,9 +127,10 @@ body{
 
 }
 
-.goodcaseS > goodImg{
-  float: right;
+.goodcaseS > .goodImg{
+  justify-content: flex-end;
   margin-left: 20px;
+
 }
 
 
@@ -169,19 +169,22 @@ height: 280px;
 top: 1829px;
 background: #E3D2E1;
 text-align: center;
+margin-top: 40px;
 }
 
 .contact, h2{
-margin-top: 10px;
+padding-top: 2px;
 }
 
 
-#socialTags, a{
-  display: inline-flex;
+.socialMedia > ul {
+
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  padding-left: 30px;
-  align-content: center;
+  padding: 0 500px 0 500px;
 }
+
 
 #footer {
 position: -webkit-sticky;
@@ -189,12 +192,14 @@ position: sticky;
 height: 65px;
 width:100%;
 background: #CDBDCB;
+
 }
 
 #footer > p{
   background: #CDBDCB;
   margin: 0px;
-  text-align: center;
-  margin-left: 40px;
+  text-align: left;
+  height: 65px;
   font-size: 14px;
+
 }

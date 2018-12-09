@@ -156,7 +156,7 @@ ul{
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-  padding: 10px;
+  
 }
 
 .casestudys > ul > li {
@@ -200,8 +200,14 @@ ul{
 }
 
 .learnMore{
-  padding-left: 70px;
+  width: 100%;
   margin-top: 150px;
+}
+
+.learnMore > a{
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 /*------ Contact Me * Footer -------*/
@@ -214,15 +220,16 @@ text-align: center;
 }
 
 .contact, h2{
-margin-top: 10px;
+padding-top: 2px;
 }
 
 
-#socialTags, a{
-  display: inline-flex;
+.socialMedia > ul {
+
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  padding-left: 30px;
-  align-content: center;
+  padding: 0 500px 0 500px;
 }
 
 
