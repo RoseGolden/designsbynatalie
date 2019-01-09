@@ -76,6 +76,7 @@ body{
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
+  margin: 0;
 }
 
 /*------ NAV -------*/
@@ -156,7 +157,7 @@ ul{
   display: flex;
   justify-content: space-around;
   flex-direction: row;
-  
+
 }
 
 .casestudys > ul > li {
@@ -235,10 +236,11 @@ padding-top: 2px;
 
 #footer {
 position: -webkit-sticky;
-position: sticky;
+
 height: 65px;
 width:100%;
 background: #CDBDCB;
+
 
 }
 

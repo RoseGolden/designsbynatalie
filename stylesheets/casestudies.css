@@ -84,12 +84,13 @@ font-size: 18px;
 
 }
 body{
-  width: 100%;
+  
   align-items: center;
   background-image:url(../images/background2.png);
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
+  margin: 0;
 }
 
 /*------ NAV -------*/
