@@ -17,21 +17,18 @@ html, body{
   font-weight: 100;
 }
 .container{
-  min-height: 100%;
-  max-width: 1440px;
-  width: 95vw;
-  margin: auto;
 }
+
 #main{
   overflow: auto;
-
-
 }
+
 #footer{
   position: relative;
   height: 65px;
   clear: both;
 }
+
 h1{
   font-family: 'Cormorant Garamond', serif;
   font-style: normal;
@@ -93,7 +90,7 @@ body{
   padding: 0;
 }
 .links a {
-  padding-left: 40px;
+  margin-right: 40px;
   float: right;
   display: inline-block;
   vertical-align: middle;
