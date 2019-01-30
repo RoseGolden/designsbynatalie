@@ -1,3 +1,6 @@
+
+/*------ GLOBAL -------*/
+
 * {
   z-index: 1;
   padding: 0;
@@ -71,7 +74,7 @@ font-size: 18px;
 body{
   width: 100%;
   align-items: center;
-  background-image:url(../images/BGlandingpage.png);
+  background-image:url();
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -104,6 +107,71 @@ body{
   padding: 0;
 }
 
+/*------ Case Study-------*/
+
+#goodluxebody{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.conceptimg{
+  margin-top: 100px;
+}
+
+.goodluxemockup{
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+
+.goodluxewireframe{
+  margin-bottom: 100px;
+}
+
+.colorpallete{
+  margin-top: 100px;
+}
+
+.goodluxefonts{
+  margin-top: 100px;
+}
+
+.goodluxelogo{
+  margin-top: 100px;
+}
+
+.goodluxelogosample{
+  margin-top: 100px;
+}
+
+.goodluxelogosolution{
+  margin-top: 100px;
+}
+
+.goodluxelogolanding{
+  margin-top: 100px;
+}
+
+.processimg{
+  margin-top: 100px;
+}
+
+.goodluxeuserresearch{
+  margin-top: 100px;
+}
+
+.goodluxeuserpersonas{
+  margin-top: 100px;
+}
+
+.goodluxeuserlofi{
+  margin-top: 100px;
+}
+
+.goodluxeuserhifi{
+  margin-top: 100px;
+
+}
 
 
 

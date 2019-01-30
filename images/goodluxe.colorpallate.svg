@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1149px" height="1420px" viewBox="0 0 1149 1420" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 28</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="179.648551" cy="178.783816" r="75.8804348"></circle>
+        <filter x="-6.6%" y="-5.3%" width="113.2%" height="113.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-3" cx="230.899485" cy="230.899485" r="97.1283784"></circle>
+        <filter x="-6.7%" y="-5.7%" width="113.4%" height="113.4%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <ellipse id="path-5" cx="383.792898" cy="383.906449" rx="161.851523" ry="161.925593"></ellipse>
+        <filter x="-6.0%" y="-5.1%" width="112.0%" height="112.0%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="3" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-7" cx="270.689552" cy="270.689552" r="115.083582"></circle>
+        <filter x="-5.6%" y="-4.8%" width="111.3%" height="111.3%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Custom-Preset" transform="translate(-98.000000, -2814.000000)">
+            <g id="Group-28" transform="translate(98.000000, 2800.000000)">
+                <g id="Group-12" transform="translate(233.000000, 885.000000)">
+                    <g id="Group-8">
+                        <circle id="Oval-2" fill-opacity="0.840000033" fill="#DDE9FD" opacity="0.790000021" cx="179" cy="179" r="179"></circle>
+                        <circle id="Oval-2" fill-opacity="0.396399457" fill="#FFFFFF" cx="179.648551" cy="178.351449" r="119.981884"></circle>
+                        <g id="Oval">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#FF7703" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                    <text id="#FF7703" font-family="Muli-SemiBold, Muli" font-size="18" font-weight="500" fill="#000000">
+                        <tspan x="140" y="279">#FF7703</tspan>
+                    </text>
+                </g>
+                <g id="Group-13" transform="translate(560.000000, 974.000000)">
+                    <g id="Group-9">
+                        <circle id="Oval-2" fill="#F5EFF4" opacity="0.790000021" cx="230" cy="230" r="230"></circle>
+                        <circle id="Oval-2" fill-opacity="0.666751585" fill="#FFFFFF" cx="230" cy="230" r="153.851351"></circle>
+                        <g id="Oval">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                            <use fill="#E0E0E0" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        </g>
+                    </g>
+                    <text id="#E0E0E0" font-family="Muli-SemiBold, Muli" font-size="18" font-weight="500" fill="#000000">
+                        <tspan x="192.184497" y="356">#E0E0E0</tspan>
+                    </text>
+                </g>
+                <g id="Group-5" transform="translate(0.000000, 164.000000)">
+                    <g id="Group-7">
+                        <ellipse id="Oval-2" fill-opacity="0.840000033" fill="#EFE6EE" opacity="0.790000021" cx="383" cy="383.175278" rx="383" ry="383.175278"></ellipse>
+                        <ellipse id="Oval-2" fill-opacity="0.381821784" fill="#FFFFFF" cx="388.670474" cy="383.338459" rx="257.115482" ry="257.23315"></ellipse>
+                        <g id="Oval">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                            <use fill="#E2A169" fill-rule="evenodd" xlink:href="#path-5"></use>
+                        </g>
+                    </g>
+                    <text id="#E2A169" font-family="Muli-SemiBold, Muli" font-size="18" font-weight="500" fill="#000000">
+                        <tspan x="341" y="575">#E2A169</tspan>
+                    </text>
+                </g>
+                <g id="Group-4" transform="translate(606.000000, 459.000000)">
+                    <g id="Group-6">
+                        <circle id="Oval-2" fill-opacity="0.372424139" fill="#A1A9A6" opacity="0.790000021" cx="271.5" cy="271.5" r="271.5"></circle>
+                        <circle id="Oval-2" fill-opacity="0.333305027" fill="#FFFFFF" cx="271.5" cy="271.5" r="182.350746"></circle>
+                        <g id="Oval">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
+                        </g>
+                    </g>
+                    <text id="#FFFFFF" font-family="Muli-SemiBold, Muli" font-size="18" font-weight="500" fill="#000000">
+                        <tspan x="232" y="413">#FFFFFF</tspan>
+                    </text>
+                </g>
+                <text id="Color-Palette" font-family="PlayfairDisplay-Regular, Playfair Display" font-size="48" font-weight="normal" fill="#000000">
+                    <tspan x="77" y="52">Color Palette</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
